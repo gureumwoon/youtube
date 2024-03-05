@@ -1,7 +1,7 @@
 import { useQuery } from "@tanstack/react-query"
-import axios from "axios"
 import { useParams } from "react-router-dom";
 import VideoList from "../components/VideoList";
+import YoutubeApi from "../../api/YoutubeApi";
 
 export interface Video {
     id: string;
@@ -11,15 +11,12 @@ export interface Video {
 }
 
 export default function Videos() {
-    const keyword = useParams();
+    const { keyword } = useParams() as { keyword: string };
     const { isLoading, error, data: videos } = useQuery({
         queryKey: ['videos', keyword],
-        queryFn: async () => {
-            return await axios.get(`http://localhost:5173/${keyword ? 'KeyWord' : 'HotTrendVideo'}.json`)
-                .then((res) => {
-                    console.log("비디오", res.data.items)
-                    return res.data.items;
-                });
+        queryFn: () => {
+            const youtube = new YoutubeApi();
+            return youtube.search(keyword);
         }
     });
 
