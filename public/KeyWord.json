@@ -1,0 +1,856 @@
+{
+    "kind": "youtube#searchListResponse",
+    "etag": "Qsv2kyxZODMk-nEpm8sGa0TAZfY",
+    "nextPageToken": "CBkQAA",
+    "regionCode": "US",
+    "pageInfo": {
+        "totalResults": 1000000,
+        "resultsPerPage": 25
+    },
+    "items": [
+        {
+            "kind": "youtube#searchResult",
+            "etag": "58UJ46JYe7Zw6p1hUvNga4D04ZY",
+            "id": {
+                "kind": "youtube#channel",
+                "channelId": "UCfkXDY7vwkcJ8ddFGz8KusA"
+            },
+            "snippet": {
+                "publishedAt": "2012-11-16T08:20:35Z",
+                "channelId": "UCfkXDY7vwkcJ8ddFGz8KusA",
+                "title": "SEVENTEEN",
+                "description": "SEVENTEEN Official Youtube #세븐틴 공식 유튜브.",
+                "thumbnails": {
+                    "default": {
+                        "url": "https://yt3.ggpht.com/KVWL6t-4tQVxE8BN3u8pgwb4uv7BhUaqm9EiBO4X0yCP2Cm0IFr22HYT3_t5cIDOnd9UsRdH=s88-c-k-c0xffffffff-no-rj-mo"
+                    },
+                    "medium": {
+                        "url": "https://yt3.ggpht.com/KVWL6t-4tQVxE8BN3u8pgwb4uv7BhUaqm9EiBO4X0yCP2Cm0IFr22HYT3_t5cIDOnd9UsRdH=s240-c-k-c0xffffffff-no-rj-mo"
+                    },
+                    "high": {
+                        "url": "https://yt3.ggpht.com/KVWL6t-4tQVxE8BN3u8pgwb4uv7BhUaqm9EiBO4X0yCP2Cm0IFr22HYT3_t5cIDOnd9UsRdH=s800-c-k-c0xffffffff-no-rj-mo"
+                    }
+                },
+                "channelTitle": "SEVENTEEN",
+                "liveBroadcastContent": "none",
+                "publishTime": "2012-11-16T08:20:35Z"
+            }
+        },
+        {
+            "kind": "youtube#searchResult",
+            "etag": "pZVdMlYevfE54SxYsROb3RaBYRg",
+            "id": {
+                "kind": "youtube#video",
+                "videoId": "-GQg25oP0S4"
+            },
+            "snippet": {
+                "publishedAt": "2023-04-24T08:58:11Z",
+                "channelId": "UC3IZKseVpdzPSBaWxBxundA",
+                "title": "SEVENTEEN (세븐틴) &#39;손오공&#39; Official MV",
+                "description": "SEVENTEEN (세븐틴) '손오공' Official MV #SEVENTEEN #세븐틴 #FML #손오공 #Super Credits: Production｜OUI PRODUCTION ...",
+                "thumbnails": {
+                    "default": {
+                        "url": "https://i.ytimg.com/vi/-GQg25oP0S4/default.jpg",
+                        "width": 120,
+                        "height": 90
+                    },
+                    "medium": {
+                        "url": "https://i.ytimg.com/vi/-GQg25oP0S4/mqdefault.jpg",
+                        "width": 320,
+                        "height": 180
+                    },
+                    "high": {
+                        "url": "https://i.ytimg.com/vi/-GQg25oP0S4/hqdefault.jpg",
+                        "width": 480,
+                        "height": 360
+                    }
+                },
+                "channelTitle": "HYBE LABELS",
+                "liveBroadcastContent": "none",
+                "publishTime": "2023-04-24T08:58:11Z"
+            }
+        },
+        {
+            "kind": "youtube#searchResult",
+            "etag": "ifd5XCamM8PItVtxDmLh9pxMkwY",
+            "id": {
+                "kind": "youtube#video",
+                "videoId": "zSQ48zyWZrY"
+            },
+            "snippet": {
+                "publishedAt": "2023-10-23T08:58:09Z",
+                "channelId": "UC3IZKseVpdzPSBaWxBxundA",
+                "title": "SEVENTEEN (세븐틴) &#39;음악의 신&#39; Official MV",
+                "description": "SEVENTEEN (세븐틴) '음악의 신' Official MV #SEVENTEEN #세븐틴 #SEVENTEENTH_HEAVEN #음악의신 #GodOfMusic ...",
+                "thumbnails": {
+                    "default": {
+                        "url": "https://i.ytimg.com/vi/zSQ48zyWZrY/default.jpg",
+                        "width": 120,
+                        "height": 90
+                    },
+                    "medium": {
+                        "url": "https://i.ytimg.com/vi/zSQ48zyWZrY/mqdefault.jpg",
+                        "width": 320,
+                        "height": 180
+                    },
+                    "high": {
+                        "url": "https://i.ytimg.com/vi/zSQ48zyWZrY/hqdefault.jpg",
+                        "width": 480,
+                        "height": 360
+                    }
+                },
+                "channelTitle": "HYBE LABELS",
+                "liveBroadcastContent": "none",
+                "publishTime": "2023-10-23T08:58:09Z"
+            }
+        },
+        {
+            "kind": "youtube#searchResult",
+            "etag": "48j-XdcPD-abIkj4OjEAfNlqUAY",
+            "id": {
+                "kind": "youtube#video",
+                "videoId": "hwMKYUHChMw"
+            },
+            "snippet": {
+                "publishedAt": "2024-03-03T11:00:58Z",
+                "channelId": "UCfkXDY7vwkcJ8ddFGz8KusA",
+                "title": "[Artist-Made Collection by SEVENTEEN] Season 2. Making of Log - WONWOO",
+                "description": "[Artist-Made Collection by SEVENTEEN] Season 2. Making of Log - WONWOO ✓ LOVE PACKED KEYBOARD ✓ LOVE PACKED ...",
+                "thumbnails": {
+                    "default": {
+                        "url": "https://i.ytimg.com/vi/hwMKYUHChMw/default.jpg",
+                        "width": 120,
+                        "height": 90
+                    },
+                    "medium": {
+                        "url": "https://i.ytimg.com/vi/hwMKYUHChMw/mqdefault.jpg",
+                        "width": 320,
+                        "height": 180
+                    },
+                    "high": {
+                        "url": "https://i.ytimg.com/vi/hwMKYUHChMw/hqdefault.jpg",
+                        "width": 480,
+                        "height": 360
+                    }
+                },
+                "channelTitle": "SEVENTEEN",
+                "liveBroadcastContent": "none",
+                "publishTime": "2024-03-03T11:00:58Z"
+            }
+        },
+        {
+            "kind": "youtube#searchResult",
+            "etag": "afuHB4MIhOSZJ20Vv7T4RUpInIc",
+            "id": {
+                "kind": "youtube#video",
+                "videoId": "OQYpJEwMx44"
+            },
+            "snippet": {
+                "publishedAt": "2024-03-03T09:59:59Z",
+                "channelId": "UCfkXDY7vwkcJ8ddFGz8KusA",
+                "title": "[Artist-Made Collection by SEVENTEEN] Season 2. Making of Log - HOSHI",
+                "description": "[Artist-Made Collection by SEVENTEEN] Season 2. Making of Log - HOSHI ✓ PLUSH KEYRING ✓ PLUSH TOY ✓ INCENSE ...",
+                "thumbnails": {
+                    "default": {
+                        "url": "https://i.ytimg.com/vi/OQYpJEwMx44/default.jpg",
+                        "width": 120,
+                        "height": 90
+                    },
+                    "medium": {
+                        "url": "https://i.ytimg.com/vi/OQYpJEwMx44/mqdefault.jpg",
+                        "width": 320,
+                        "height": 180
+                    },
+                    "high": {
+                        "url": "https://i.ytimg.com/vi/OQYpJEwMx44/hqdefault.jpg",
+                        "width": 480,
+                        "height": 360
+                    }
+                },
+                "channelTitle": "SEVENTEEN",
+                "liveBroadcastContent": "none",
+                "publishTime": "2024-03-03T09:59:59Z"
+            }
+        },
+        {
+            "kind": "youtube#searchResult",
+            "etag": "x3YQLPq_FaS9vnYTculEYL7kcFs",
+            "id": {
+                "kind": "youtube#video",
+                "videoId": "9h80Sr15n4M"
+            },
+            "snippet": {
+                "publishedAt": "2014-08-09T23:11:50Z",
+                "channelId": "UCfHZa14ah-X7M11_UPmycOA",
+                "title": "Seventeen - Heathers: The Musical +LYRICS",
+                "description": "(p) Yellow Sound Label owns this music, not me. But enjoy! VERONICA: Fine, we're damaged Really damaged. But that does not ...",
+                "thumbnails": {
+                    "default": {
+                        "url": "https://i.ytimg.com/vi/9h80Sr15n4M/default.jpg",
+                        "width": 120,
+                        "height": 90
+                    },
+                    "medium": {
+                        "url": "https://i.ytimg.com/vi/9h80Sr15n4M/mqdefault.jpg",
+                        "width": 320,
+                        "height": 180
+                    },
+                    "high": {
+                        "url": "https://i.ytimg.com/vi/9h80Sr15n4M/hqdefault.jpg",
+                        "width": 480,
+                        "height": 360
+                    }
+                },
+                "channelTitle": "Heathers Musical Lyrics",
+                "liveBroadcastContent": "none",
+                "publishTime": "2014-08-09T23:11:50Z"
+            }
+        },
+        {
+            "kind": "youtube#searchResult",
+            "etag": "QAYD2ohAiLrr_JlsvHp3azcj1lw",
+            "id": {
+                "kind": "youtube#video",
+                "videoId": "8OEjMIpXPAY"
+            },
+            "snippet": {
+                "publishedAt": "2024-03-02T10:00:00Z",
+                "channelId": "UCfkXDY7vwkcJ8ddFGz8KusA",
+                "title": "[Artist-Made Collection by SEVENTEEN] Season 2. Making of Log - Teaser",
+                "description": "[Artist-Made Collection by SEVENTEEN] Season 2. Making of Log - Teaser 에스쿱스, 정한, 조슈아, 준이 참여한 [시즌 1]에 이어 ...",
+                "thumbnails": {
+                    "default": {
+                        "url": "https://i.ytimg.com/vi/8OEjMIpXPAY/default.jpg",
+                        "width": 120,
+                        "height": 90
+                    },
+                    "medium": {
+                        "url": "https://i.ytimg.com/vi/8OEjMIpXPAY/mqdefault.jpg",
+                        "width": 320,
+                        "height": 180
+                    },
+                    "high": {
+                        "url": "https://i.ytimg.com/vi/8OEjMIpXPAY/hqdefault.jpg",
+                        "width": 480,
+                        "height": 360
+                    }
+                },
+                "channelTitle": "SEVENTEEN",
+                "liveBroadcastContent": "none",
+                "publishTime": "2024-03-02T10:00:00Z"
+            }
+        },
+        {
+            "kind": "youtube#searchResult",
+            "etag": "29fC8Bwb2Nn2S7n4twUr97oIhxg",
+            "id": {
+                "kind": "youtube#video",
+                "videoId": "gRnuFC4Ualw"
+            },
+            "snippet": {
+                "publishedAt": "2022-05-27T03:58:12Z",
+                "channelId": "UC3IZKseVpdzPSBaWxBxundA",
+                "title": "SEVENTEEN (세븐틴) &#39;HOT&#39; Official MV",
+                "description": "SEVENTEEN (세븐틴) 'HOT' Official MV Credits: PRODUCTION｜RIGEND FILM DIRECTOR｜RIMA YOON, DONGJU JANG ...",
+                "thumbnails": {
+                    "default": {
+                        "url": "https://i.ytimg.com/vi/gRnuFC4Ualw/default.jpg",
+                        "width": 120,
+                        "height": 90
+                    },
+                    "medium": {
+                        "url": "https://i.ytimg.com/vi/gRnuFC4Ualw/mqdefault.jpg",
+                        "width": 320,
+                        "height": 180
+                    },
+                    "high": {
+                        "url": "https://i.ytimg.com/vi/gRnuFC4Ualw/hqdefault.jpg",
+                        "width": 480,
+                        "height": 360
+                    }
+                },
+                "channelTitle": "HYBE LABELS",
+                "liveBroadcastContent": "none",
+                "publishTime": "2022-05-27T03:58:12Z"
+            }
+        },
+        {
+            "kind": "youtube#searchResult",
+            "etag": "ngoq86UvxKT8e-Zo-oDO-n_k0r0",
+            "id": {
+                "kind": "youtube#video",
+                "videoId": "TPAZe6bMk2o"
+            },
+            "snippet": {
+                "publishedAt": "2021-11-07T07:43:07Z",
+                "channelId": "UCMimXofNZwdbJtoxU_939Iw",
+                "title": "Seventeen",
+                "description": "Provided to YouTube by WM UK Seventeen · Marina and The Diamonds The Family Jewels ℗ 2009 679 Recordings Ltd. Violin: ...",
+                "thumbnails": {
+                    "default": {
+                        "url": "https://i.ytimg.com/vi/TPAZe6bMk2o/default.jpg",
+                        "width": 120,
+                        "height": 90
+                    },
+                    "medium": {
+                        "url": "https://i.ytimg.com/vi/TPAZe6bMk2o/mqdefault.jpg",
+                        "width": 320,
+                        "height": 180
+                    },
+                    "high": {
+                        "url": "https://i.ytimg.com/vi/TPAZe6bMk2o/hqdefault.jpg",
+                        "width": 480,
+                        "height": 360
+                    }
+                },
+                "channelTitle": "MARINA - Topic",
+                "liveBroadcastContent": "none",
+                "publishTime": "2021-11-07T07:43:07Z"
+            }
+        },
+        {
+            "kind": "youtube#searchResult",
+            "etag": "MqLQ_mMKJA-S9W8YC2Imx3Rp3wk",
+            "id": {
+                "kind": "youtube#video",
+                "videoId": "WpuatuzSDK4"
+            },
+            "snippet": {
+                "publishedAt": "2021-10-22T03:58:09Z",
+                "channelId": "UC3IZKseVpdzPSBaWxBxundA",
+                "title": "SEVENTEEN (세븐틴) &#39;Rock with you&#39; Official MV",
+                "description": "SEVENTEEN (세븐틴) 'Rock with you' Official MV Credits: PRODUCTION｜RIGEND FILM DIRECTOR｜RIMA YOON, DONGJU ...",
+                "thumbnails": {
+                    "default": {
+                        "url": "https://i.ytimg.com/vi/WpuatuzSDK4/default.jpg",
+                        "width": 120,
+                        "height": 90
+                    },
+                    "medium": {
+                        "url": "https://i.ytimg.com/vi/WpuatuzSDK4/mqdefault.jpg",
+                        "width": 320,
+                        "height": 180
+                    },
+                    "high": {
+                        "url": "https://i.ytimg.com/vi/WpuatuzSDK4/hqdefault.jpg",
+                        "width": 480,
+                        "height": 360
+                    }
+                },
+                "channelTitle": "HYBE LABELS",
+                "liveBroadcastContent": "none",
+                "publishTime": "2021-10-22T03:58:09Z"
+            }
+        },
+        {
+            "kind": "youtube#searchResult",
+            "etag": "7Qs15daK2mHoisbAzyrEiucBYYw",
+            "id": {
+                "kind": "youtube#video",
+                "videoId": "zEkg4GBQumc"
+            },
+            "snippet": {
+                "publishedAt": "2017-05-22T09:00:06Z",
+                "channelId": "UCfkXDY7vwkcJ8ddFGz8KusA",
+                "title": "[M/V] SEVENTEEN(세븐틴) - 울고 싶지 않아 (Don&#39;t Wanna Cry)",
+                "description": "소년의 성장의 또 다른 단계를 담은 세븐틴의 4th Mini Album 'Al1'의 타이틀곡 '울고 싶지 않아'는 소년이 살면서 처음으로 느낀 깊은 ...",
+                "thumbnails": {
+                    "default": {
+                        "url": "https://i.ytimg.com/vi/zEkg4GBQumc/default.jpg",
+                        "width": 120,
+                        "height": 90
+                    },
+                    "medium": {
+                        "url": "https://i.ytimg.com/vi/zEkg4GBQumc/mqdefault.jpg",
+                        "width": 320,
+                        "height": 180
+                    },
+                    "high": {
+                        "url": "https://i.ytimg.com/vi/zEkg4GBQumc/hqdefault.jpg",
+                        "width": 480,
+                        "height": 360
+                    }
+                },
+                "channelTitle": "SEVENTEEN",
+                "liveBroadcastContent": "none",
+                "publishTime": "2017-05-22T09:00:06Z"
+            }
+        },
+        {
+            "kind": "youtube#searchResult",
+            "etag": "UplVrf4pblUdX6fCd79k_Mpb62c",
+            "id": {
+                "kind": "youtube#video",
+                "videoId": "VCDWg0ljbFQ"
+            },
+            "snippet": {
+                "publishedAt": "2022-07-18T08:58:10Z",
+                "channelId": "UC3IZKseVpdzPSBaWxBxundA",
+                "title": "SEVENTEEN (세븐틴) &#39;_WORLD&#39; Official MV",
+                "description": "SEVENTEEN (세븐틴) '_WORLD' Official MV Credits: Production｜OUI PRODUCTION Director｜Oui Kim Producer｜Yeonjin Kim ...",
+                "thumbnails": {
+                    "default": {
+                        "url": "https://i.ytimg.com/vi/VCDWg0ljbFQ/default.jpg",
+                        "width": 120,
+                        "height": 90
+                    },
+                    "medium": {
+                        "url": "https://i.ytimg.com/vi/VCDWg0ljbFQ/mqdefault.jpg",
+                        "width": 320,
+                        "height": 180
+                    },
+                    "high": {
+                        "url": "https://i.ytimg.com/vi/VCDWg0ljbFQ/hqdefault.jpg",
+                        "width": 480,
+                        "height": 360
+                    }
+                },
+                "channelTitle": "HYBE LABELS",
+                "liveBroadcastContent": "none",
+                "publishTime": "2022-07-18T08:58:10Z"
+            }
+        },
+        {
+            "kind": "youtube#searchResult",
+            "etag": "gpYLhmMezmYsY-IHaRJPAbTEblY",
+            "id": {
+                "kind": "youtube#video",
+                "videoId": "ap14O5-G7UA"
+            },
+            "snippet": {
+                "publishedAt": "2019-09-16T09:00:01Z",
+                "channelId": "UCfkXDY7vwkcJ8ddFGz8KusA",
+                "title": "[M/V] SEVENTEEN(세븐틴) - 독 : Fear",
+                "description": "'자체제작' 타이틀로 가요계에서 꾸준히 성장세를 보이고 있는 세븐틴이 이번엔 정규 3집 [An Ode]로 더욱 성숙하고 깊이 있는 앨범 ...",
+                "thumbnails": {
+                    "default": {
+                        "url": "https://i.ytimg.com/vi/ap14O5-G7UA/default.jpg",
+                        "width": 120,
+                        "height": 90
+                    },
+                    "medium": {
+                        "url": "https://i.ytimg.com/vi/ap14O5-G7UA/mqdefault.jpg",
+                        "width": 320,
+                        "height": 180
+                    },
+                    "high": {
+                        "url": "https://i.ytimg.com/vi/ap14O5-G7UA/hqdefault.jpg",
+                        "width": 480,
+                        "height": 360
+                    }
+                },
+                "channelTitle": "SEVENTEEN",
+                "liveBroadcastContent": "none",
+                "publishTime": "2019-09-16T09:00:01Z"
+            }
+        },
+        {
+            "kind": "youtube#searchResult",
+            "etag": "Hk7X4ml0fkSXYqSUevqlf5Fhjj8",
+            "id": {
+                "kind": "youtube#video",
+                "videoId": "jjCBYlzwaY8"
+            },
+            "snippet": {
+                "publishedAt": "2021-07-23T15:00:00Z",
+                "channelId": "UCfkXDY7vwkcJ8ddFGz8KusA",
+                "title": "[SPECIAL VIDEO] SEVENTEEN(세븐틴) - Anyone",
+                "description": "[SPECIAL VIDEO] SEVENTEEN(세븐틴) - Anyone #SEVENTEEN #세븐틴 #Your_Choice #Anyone SEVENTEEN Official ...",
+                "thumbnails": {
+                    "default": {
+                        "url": "https://i.ytimg.com/vi/jjCBYlzwaY8/default.jpg",
+                        "width": 120,
+                        "height": 90
+                    },
+                    "medium": {
+                        "url": "https://i.ytimg.com/vi/jjCBYlzwaY8/mqdefault.jpg",
+                        "width": 320,
+                        "height": 180
+                    },
+                    "high": {
+                        "url": "https://i.ytimg.com/vi/jjCBYlzwaY8/hqdefault.jpg",
+                        "width": 480,
+                        "height": 360
+                    }
+                },
+                "channelTitle": "SEVENTEEN",
+                "liveBroadcastContent": "none",
+                "publishTime": "2021-07-23T15:00:00Z"
+            }
+        },
+        {
+            "kind": "youtube#searchResult",
+            "etag": "By1iXqWlaDOuZwPA4wksoGI_frg",
+            "id": {
+                "kind": "youtube#video",
+                "videoId": "-QSdbcgVxr0"
+            },
+            "snippet": {
+                "publishedAt": "2022-01-26T04:17:50Z",
+                "channelId": "UCtcys142FDtVkhD3zml1lQw",
+                "title": "Seventeen",
+                "description": "Provided to YouTube by Nettwerk Seventeen · Ladytron Light & Magic ℗ Nettwerk Productions Released on: 2011-01-11 Music ...",
+                "thumbnails": {
+                    "default": {
+                        "url": "https://i.ytimg.com/vi/-QSdbcgVxr0/default.jpg",
+                        "width": 120,
+                        "height": 90
+                    },
+                    "medium": {
+                        "url": "https://i.ytimg.com/vi/-QSdbcgVxr0/mqdefault.jpg",
+                        "width": 320,
+                        "height": 180
+                    },
+                    "high": {
+                        "url": "https://i.ytimg.com/vi/-QSdbcgVxr0/hqdefault.jpg",
+                        "width": 480,
+                        "height": 360
+                    }
+                },
+                "channelTitle": "Ladytron - Topic",
+                "liveBroadcastContent": "none",
+                "publishTime": "2022-01-26T04:17:50Z"
+            }
+        },
+        {
+            "kind": "youtube#searchResult",
+            "etag": "kMIPbDphNSIYCAdUyhemRSFhpaE",
+            "id": {
+                "kind": "youtube#video",
+                "videoId": "9kpuOoIh3wU"
+            },
+            "snippet": {
+                "publishedAt": "2023-05-07T14:59:55Z",
+                "channelId": "UC3IZKseVpdzPSBaWxBxundA",
+                "title": "SEVENTEEN (세븐틴) &#39;F*ck My Life&#39; Official MV",
+                "description": "SEVENTEEN (세븐틴) 'F*ck My Life' Official MV CREDITS: PRODUCTION | BANGJAEYEOB FILM DIRECTOR | BANG JAEYEOB ...",
+                "thumbnails": {
+                    "default": {
+                        "url": "https://i.ytimg.com/vi/9kpuOoIh3wU/default.jpg",
+                        "width": 120,
+                        "height": 90
+                    },
+                    "medium": {
+                        "url": "https://i.ytimg.com/vi/9kpuOoIh3wU/mqdefault.jpg",
+                        "width": 320,
+                        "height": 180
+                    },
+                    "high": {
+                        "url": "https://i.ytimg.com/vi/9kpuOoIh3wU/hqdefault.jpg",
+                        "width": 480,
+                        "height": 360
+                    }
+                },
+                "channelTitle": "HYBE LABELS",
+                "liveBroadcastContent": "none",
+                "publishTime": "2023-05-07T14:59:55Z"
+            }
+        },
+        {
+            "kind": "youtube#searchResult",
+            "etag": "luoPOtyziOuDKzmFewFVWp5l54k",
+            "id": {
+                "kind": "youtube#video",
+                "videoId": "F9CrRG6j2SM"
+            },
+            "snippet": {
+                "publishedAt": "2019-08-05T09:00:02Z",
+                "channelId": "UCfkXDY7vwkcJ8ddFGz8KusA",
+                "title": "[M/V] SEVENTEEN(세븐틴) - HIT",
+                "description": "13명의 뚜렷한 음악 색을 바탕으로 세븐틴 표 노래와 무대를 전 세계에 알리며 독보적인 독창성을 보여주고 있는 자체 제작 아이돌 ...",
+                "thumbnails": {
+                    "default": {
+                        "url": "https://i.ytimg.com/vi/F9CrRG6j2SM/default.jpg",
+                        "width": 120,
+                        "height": 90
+                    },
+                    "medium": {
+                        "url": "https://i.ytimg.com/vi/F9CrRG6j2SM/mqdefault.jpg",
+                        "width": 320,
+                        "height": 180
+                    },
+                    "high": {
+                        "url": "https://i.ytimg.com/vi/F9CrRG6j2SM/hqdefault.jpg",
+                        "width": 480,
+                        "height": 360
+                    }
+                },
+                "channelTitle": "SEVENTEEN",
+                "liveBroadcastContent": "none",
+                "publishTime": "2019-08-05T09:00:02Z"
+            }
+        },
+        {
+            "kind": "youtube#searchResult",
+            "etag": "Az-iaRpYNTHj6gn3pdtnayrJsl0",
+            "id": {
+                "kind": "youtube#video",
+                "videoId": "eUT9B2EfldM"
+            },
+            "snippet": {
+                "publishedAt": "2021-10-26T08:59:58Z",
+                "channelId": "UCfkXDY7vwkcJ8ddFGz8KusA",
+                "title": "SEVENTEEN(세븐틴) - Crush @Comeback Show &#39;Attacca&#39;",
+                "description": "SEVENTEEN(세븐틴) - Crush @Comeback Show 'Attacca' #세븐틴 #SEVENTEEN #Attacca #Crush #SVT_ComebackShow ...",
+                "thumbnails": {
+                    "default": {
+                        "url": "https://i.ytimg.com/vi/eUT9B2EfldM/default.jpg",
+                        "width": 120,
+                        "height": 90
+                    },
+                    "medium": {
+                        "url": "https://i.ytimg.com/vi/eUT9B2EfldM/mqdefault.jpg",
+                        "width": 320,
+                        "height": 180
+                    },
+                    "high": {
+                        "url": "https://i.ytimg.com/vi/eUT9B2EfldM/hqdefault.jpg",
+                        "width": 480,
+                        "height": 360
+                    }
+                },
+                "channelTitle": "SEVENTEEN",
+                "liveBroadcastContent": "none",
+                "publishTime": "2021-10-26T08:59:58Z"
+            }
+        },
+        {
+            "kind": "youtube#searchResult",
+            "etag": "07XT5X7IgQm1DY7yi4VIb6_3bsk",
+            "id": {
+                "kind": "youtube#video",
+                "videoId": "Nl-Hy0IrPm4"
+            },
+            "snippet": {
+                "publishedAt": "2023-01-24T02:01:37Z",
+                "channelId": "UCDfMVgIgFattT13PyzeyQ0w",
+                "title": "Seventeen (Marina) - Sped up",
+                "description": "seventeen #demonslayer #marina #spedupsongs.",
+                "thumbnails": {
+                    "default": {
+                        "url": "https://i.ytimg.com/vi/Nl-Hy0IrPm4/default.jpg",
+                        "width": 120,
+                        "height": 90
+                    },
+                    "medium": {
+                        "url": "https://i.ytimg.com/vi/Nl-Hy0IrPm4/mqdefault.jpg",
+                        "width": 320,
+                        "height": 180
+                    },
+                    "high": {
+                        "url": "https://i.ytimg.com/vi/Nl-Hy0IrPm4/hqdefault.jpg",
+                        "width": 480,
+                        "height": 360
+                    }
+                },
+                "channelTitle": "Maria.",
+                "liveBroadcastContent": "none",
+                "publishTime": "2023-01-24T02:01:37Z"
+            }
+        },
+        {
+            "kind": "youtube#searchResult",
+            "etag": "uFfYXBsFCkEbCd4ZsXo7CEF5WxQ",
+            "id": {
+                "kind": "youtube#video",
+                "videoId": "UZj9QBmd4bU"
+            },
+            "snippet": {
+                "publishedAt": "2024-01-19T01:40:01Z",
+                "channelId": "UCfCUH0VpaEE7LdO23MCet8g",
+                "title": "TANPA PESAN TERAKHIR - SEVENTEEN | SEVENTEEN FULL ALBUM TERBAIK DAN TERPOPULER",
+                "description": "seventeen full album terbaik dan terpopuler sepanjang masa #yangtelahmerelakanmu #tanpapesanterakhir #halterindah ...",
+                "thumbnails": {
+                    "default": {
+                        "url": "https://i.ytimg.com/vi/UZj9QBmd4bU/default.jpg",
+                        "width": 120,
+                        "height": 90
+                    },
+                    "medium": {
+                        "url": "https://i.ytimg.com/vi/UZj9QBmd4bU/mqdefault.jpg",
+                        "width": 320,
+                        "height": 180
+                    },
+                    "high": {
+                        "url": "https://i.ytimg.com/vi/UZj9QBmd4bU/hqdefault.jpg",
+                        "width": 480,
+                        "height": 360
+                    }
+                },
+                "channelTitle": "AKU ANAK BEBINJAT",
+                "liveBroadcastContent": "none",
+                "publishTime": "2024-01-19T01:40:01Z"
+            }
+        },
+        {
+            "kind": "youtube#searchResult",
+            "etag": "bcWS5p1csPogZ4uOt9LT0DVpC5g",
+            "id": {
+                "kind": "youtube#video",
+                "videoId": "j7sTHoeH0eA"
+            },
+            "snippet": {
+                "publishedAt": "2019-01-08T13:59:04Z",
+                "channelId": "UCD4O_NdSNAir1SOIxnyuYIQ",
+                "title": "Sharon Van Etten - Seventeen",
+                "description": "Seventeen” off Sharon Van Etten's new album “Remind Me Tomorrow” on Jagjaguwar Records Stream / Download 'Seventeen': ...",
+                "thumbnails": {
+                    "default": {
+                        "url": "https://i.ytimg.com/vi/j7sTHoeH0eA/default.jpg",
+                        "width": 120,
+                        "height": 90
+                    },
+                    "medium": {
+                        "url": "https://i.ytimg.com/vi/j7sTHoeH0eA/mqdefault.jpg",
+                        "width": 320,
+                        "height": 180
+                    },
+                    "high": {
+                        "url": "https://i.ytimg.com/vi/j7sTHoeH0eA/hqdefault.jpg",
+                        "width": 480,
+                        "height": 360
+                    }
+                },
+                "channelTitle": "SharonVanEttenVEVO",
+                "liveBroadcastContent": "none",
+                "publishTime": "2019-01-08T13:59:04Z"
+            }
+        },
+        {
+            "kind": "youtube#searchResult",
+            "etag": "5iQukG7ew4JYht_W0IepvZ470MA",
+            "id": {
+                "kind": "youtube#video",
+                "videoId": "MruIgj0yZNE"
+            },
+            "snippet": {
+                "publishedAt": "2023-04-28T21:15:00Z",
+                "channelId": "UCxAICW_LdkfFYwTqTHHE0vg",
+                "title": "SEVENTEEN Performs &#39;Super&#39; | #MTVFreshOut",
+                "description": "SEVENTEEN performs 'Super' on #MTVFreshOut. Paramount+ is here! Stream all your favorite shows now on Paramount+.",
+                "thumbnails": {
+                    "default": {
+                        "url": "https://i.ytimg.com/vi/MruIgj0yZNE/default.jpg",
+                        "width": 120,
+                        "height": 90
+                    },
+                    "medium": {
+                        "url": "https://i.ytimg.com/vi/MruIgj0yZNE/mqdefault.jpg",
+                        "width": 320,
+                        "height": 180
+                    },
+                    "high": {
+                        "url": "https://i.ytimg.com/vi/MruIgj0yZNE/hqdefault.jpg",
+                        "width": 480,
+                        "height": 360
+                    }
+                },
+                "channelTitle": "MTV",
+                "liveBroadcastContent": "none",
+                "publishTime": "2023-04-28T21:15:00Z"
+            }
+        },
+        {
+            "kind": "youtube#searchResult",
+            "etag": "1kRPEJ-VeXG15D8c6MP8qK3OcwY",
+            "id": {
+                "kind": "youtube#video",
+                "videoId": "38dIHkJMtHw"
+            },
+            "snippet": {
+                "publishedAt": "2023-04-28T09:24:56Z",
+                "channelId": "UC5BMQOsAB8hKUyHu9KI6yig",
+                "title": "Super - SEVENTEEN [Music Bank] | KBS WORLD TV 230428",
+                "description": "MusicBank #뮤직뱅크 #ミュージックバンク #音乐银行 #HongEunChae #LESSERAFIM #LeeChaeMin Fri 17:05 | Re-run : Sun ...",
+                "thumbnails": {
+                    "default": {
+                        "url": "https://i.ytimg.com/vi/38dIHkJMtHw/default.jpg",
+                        "width": 120,
+                        "height": 90
+                    },
+                    "medium": {
+                        "url": "https://i.ytimg.com/vi/38dIHkJMtHw/mqdefault.jpg",
+                        "width": 320,
+                        "height": 180
+                    },
+                    "high": {
+                        "url": "https://i.ytimg.com/vi/38dIHkJMtHw/hqdefault.jpg",
+                        "width": 480,
+                        "height": 360
+                    }
+                },
+                "channelTitle": "KBS WORLD TV",
+                "liveBroadcastContent": "none",
+                "publishTime": "2023-04-28T09:24:56Z"
+            }
+        },
+        {
+            "kind": "youtube#searchResult",
+            "etag": "_-4wb5kjq4H6rui3xI2um2CbXpo",
+            "id": {
+                "kind": "youtube#video",
+                "videoId": "yCvSR4lSqTg"
+            },
+            "snippet": {
+                "publishedAt": "2021-06-18T09:00:00Z",
+                "channelId": "UC3IZKseVpdzPSBaWxBxundA",
+                "title": "SEVENTEEN (세븐틴) &#39;Ready to love&#39; Official MV",
+                "description": "SEVENTEEN (세븐틴) 'Ready to love' Official MV 2021 프로젝트 “Power of 'Love'”의 시작을 알린 세븐틴은 이번 프로젝트를 통해 삶 ...",
+                "thumbnails": {
+                    "default": {
+                        "url": "https://i.ytimg.com/vi/yCvSR4lSqTg/default.jpg",
+                        "width": 120,
+                        "height": 90
+                    },
+                    "medium": {
+                        "url": "https://i.ytimg.com/vi/yCvSR4lSqTg/mqdefault.jpg",
+                        "width": 320,
+                        "height": 180
+                    },
+                    "high": {
+                        "url": "https://i.ytimg.com/vi/yCvSR4lSqTg/hqdefault.jpg",
+                        "width": 480,
+                        "height": 360
+                    }
+                },
+                "channelTitle": "HYBE LABELS",
+                "liveBroadcastContent": "none",
+                "publishTime": "2021-06-18T09:00:00Z"
+            }
+        },
+        {
+            "kind": "youtube#searchResult",
+            "etag": "dDKNv9skzvOmqxMSpywwY9UU738",
+            "id": {
+                "kind": "youtube#video",
+                "videoId": "n9ta1Pgeu80"
+            },
+            "snippet": {
+                "publishedAt": "2021-10-26T09:00:57Z",
+                "channelId": "UCfkXDY7vwkcJ8ddFGz8KusA",
+                "title": "SEVENTEEN(세븐틴) - 소용돌이 (To you) @Comeback Show &#39;Attacca&#39;",
+                "description": "SEVENTEEN(세븐틴) - 소용돌이 (To you) @Comeback Show 'Attacca' #세븐틴 #SEVENTEEN #Attacca #소용돌이 #Toyou ...",
+                "thumbnails": {
+                    "default": {
+                        "url": "https://i.ytimg.com/vi/n9ta1Pgeu80/default.jpg",
+                        "width": 120,
+                        "height": 90
+                    },
+                    "medium": {
+                        "url": "https://i.ytimg.com/vi/n9ta1Pgeu80/mqdefault.jpg",
+                        "width": 320,
+                        "height": 180
+                    },
+                    "high": {
+                        "url": "https://i.ytimg.com/vi/n9ta1Pgeu80/hqdefault.jpg",
+                        "width": 480,
+                        "height": 360
+                    }
+                },
+                "channelTitle": "SEVENTEEN",
+                "liveBroadcastContent": "none",
+                "publishTime": "2021-10-26T09:00:57Z"
+            }
+        }
+    ]
+}
