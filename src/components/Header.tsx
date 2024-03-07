@@ -18,7 +18,7 @@ export default function Header() {
     }, [keyword])
 
     return (
-        <header className='w-full flex justify-between items-center px-4 py-3'>
+        <header className='w-full flex justify-between items-center px-4 py-3 mb-4'>
             <Link to='/'>
                 <div className='flex items-center'>
                     <FaYoutube className='text-4xl text-logo mr-1' />
