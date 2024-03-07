@@ -1,47 +1,72 @@
-import axios, { AxiosInstance } from "axios";
+import { AxiosResponse } from "axios";
+import YoutubeClient from "./YoutubeClient";
 
-interface Item {
+interface SearchVideoProps {
     id: {
         videoId: string;
     };
+    snippet: {
+        title: string;
+    };
+}
+
+export interface Video {
+    id: string;
+    snippet: {
+        title: string;
+        thumbnails: {
+            medium: {
+                url: string,
+            };
+        };
+        channelTitle: string;
+        publishedAt: string;
+    };
+}
+
+interface YoutubeSearchApiResponseData {
+    items: SearchVideoProps[]
+}
+
+interface YoutubeApiResponseData {
+    items: Video[];
 }
 
 export default class YoutubeApi {
-    private httpClient: AxiosInstance;
+    private apiClient: YoutubeClient;
 
-    constructor() {
-        this.httpClient = axios.create({
-            baseURL: "https://youtube.googleapis.com/youtube/v3",
-            params: { key: import.meta.env.VITE_YOUTUBE_API_KEY }
-        })
+    constructor(apiClient: YoutubeClient) {
+        this.apiClient = apiClient;
     }
 
-    async search(keyword: string | null) {
-        return keyword !== null ? this.#searchByKeyword(keyword) : this.#hotTrendVideo();
+    async search(keyword: string) {
+        return keyword !== undefined ? this.#searchByKeyword(keyword) : this.#hotTrendVideo();
     }
 
     async #searchByKeyword(keyword: string) {
-        return await this.httpClient.get('search', {
+        return this.apiClient.search({
             params: {
                 part: 'snippet',
                 maxResults: 25,
                 type: 'video',
-                q: keyword
+                q: keyword,
+                key: import.meta.env.VITE_YOUTUBE_API_KEY
             }
         })
-            .then((res) => res.data.items)
-            .then((items: Item[]) => items.map((item) => ({ ...item, id: item.id.videoId })))
+            .then((res: AxiosResponse<YoutubeSearchApiResponseData>) => res.data.items)
+            .then((items: SearchVideoProps[]) => items.map((item) => ({ ...item, id: item.id.videoId })))
     }
 
     async #hotTrendVideo() {
-        return axios.get('videos', {
+        return this.apiClient.videos({
             params: {
                 part: 'snippet',
                 maxResults: 25,
                 chart: 'mostPopular',
-                regionCode: 'KR'
+                regionCode: 'KR',
+                key: import.meta.env.VITE_YOUTUBE_API_KEY
             }
         })
-            .then((res) => res.data.items);
+            .then((res: AxiosResponse<YoutubeApiResponseData>) => res.data.items);
     }
 }
