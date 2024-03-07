@@ -13,4 +13,5 @@ body {
     height: 100vh;
     background-color: #0F0F0F;
     color: white;
+    @apply flex flex-col items-center
 }
