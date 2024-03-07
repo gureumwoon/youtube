@@ -1,23 +1,17 @@
 import { useQuery } from "@tanstack/react-query"
 import { useParams } from "react-router-dom";
 import VideoList from "../components/VideoList";
-import YoutubeApi from "../../api/YoutubeApi";
-
-export interface Video {
-    id: string;
-    snippet: {
-        title: string;
-    };
-}
+import { useYoutubeApi } from "../context/useYoutubeApi";
+import { Video } from "../../api/YoutubeApi";
 
 export default function Videos() {
     const { keyword } = useParams() as { keyword: string };
+    console.log('키워드', keyword)
+    const client = useYoutubeApi()
+    console.log('유튜브', client?.search())
     const { isLoading, error, data: videos } = useQuery({
         queryKey: ['videos', keyword],
-        queryFn: () => {
-            const youtube = new YoutubeApi();
-            return youtube.search(keyword);
-        }
+        queryFn: () => client?.videos()
     });
 
     return (
@@ -26,7 +20,10 @@ export default function Videos() {
             {error && <p>Something wrong...</p>}
             {videos && <ul>
                 {
-                    videos.map((vid: Video) => <VideoList key={vid.id} vid={vid} />)
+                    videos.map((vid: Video) => {
+                        return <VideoList key={vid.id} vid={vid} />
+
+                    })
                 }
             </ul>}
         </>
