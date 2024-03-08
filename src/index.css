@@ -15,3 +15,7 @@ body {
     color: white;
     @apply flex flex-col items-center
 }
+
+#root {
+    @apply w-full
+}

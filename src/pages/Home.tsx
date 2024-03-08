@@ -10,7 +10,7 @@ export default function Home() {
       <Header />
       <YoutubeApiProvider>
         <QueryClientProvider client={queryClient}>
-          <div className="w-full max-w-screen-2xl">
+          <div className="max-w-screen-2xl m-auto">
             <Outlet />
           </div>
         </QueryClientProvider>
