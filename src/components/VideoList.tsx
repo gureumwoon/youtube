@@ -14,7 +14,7 @@ export default function VideoList({ vid, type }: VideoListProps) {
 
     return (
         <li
-            className={isList ? 'flex gap-1 m-2' : ''}
+            className={isList ? 'flex gap-1 m-2 cursor-pointer' : 'cursor-pointer'}
             onClick={() => navigate(`/videos/watch/${vid.id}`, { state: { vid } })}
         >
             <img className={isList ? 'w-60 mr-2' : 'w-full'} src={thumbnails?.medium.url} alt={title} />
