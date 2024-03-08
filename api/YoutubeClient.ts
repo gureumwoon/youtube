@@ -16,4 +16,12 @@ export default class YoutubeClient {
     async videos(params: AxiosRequestConfig) {
         return this.httpClient.get('videos', params);
     }
+
+    async channels(params: AxiosRequestConfig) {
+        return this.httpClient.get('channels', params);
+    }
+
+    async channelPlaylist(params: AxiosRequestConfig) {
+        return this.httpClient.get('search', params)
+    }
 }
