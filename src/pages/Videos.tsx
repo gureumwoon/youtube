@@ -6,12 +6,10 @@ import { Video } from "../../api/YoutubeApi";
 
 export default function Videos() {
     const { keyword } = useParams() as { keyword: string };
-    console.log('키워드', keyword)
-    const client = useYoutubeApi()
-    console.log('유튜브', client?.search())
+    const youtube = useYoutubeApi()
     const { isLoading, error, data: videos } = useQuery({
         queryKey: ['videos', keyword],
-        queryFn: () => client?.videos()
+        queryFn: () => youtube?.videos()
     });
 
     return (
