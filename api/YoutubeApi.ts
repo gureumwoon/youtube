@@ -43,7 +43,7 @@ export default class YoutubeApi {
         return keyword ? this.#searchByKeyword(keyword) : this.#hotTrendVideo();
     }
 
-    async getChannelImageUrl(id: string) {
+    async channels(id: string) {
         return this.apiClient.channels({ params: { part: 'snippet', id, key: import.meta.env.VITE_YOUTUBE_API_KEY } })
             .then((res) => res.data.items[0].snippet.thumbnails.default.url)
     }
