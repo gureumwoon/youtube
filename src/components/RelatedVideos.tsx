@@ -7,7 +7,8 @@ export default function RelatedVideos({ id }: ChannelInfoProps) {
     const youtube = useYoutubeApi()
     const { error, isLoading, data: videos } = useQuery({
         queryKey: ['channelPlaylist', id],
-        queryFn: () => youtube?.getChannelPlaylist(id)
+        queryFn: () => youtube?.getChannelPlaylist(id),
+        staleTime: 1000 * 60 * 5
     });
     return (
         <>

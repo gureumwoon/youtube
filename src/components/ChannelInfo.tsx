@@ -10,7 +10,8 @@ export default function ChannelInfo({ id, name }: ChannelInfoProps) {
     const youtube = useYoutubeApi();
     const { data: url } = useQuery({
         queryKey: ['channel', id],
-        queryFn: () => youtube?.channels(id)
+        queryFn: () => youtube?.channels(id),
+        staleTime: 1000 * 60 * 5
     })
 
     return (

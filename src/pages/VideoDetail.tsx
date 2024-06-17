@@ -14,6 +14,7 @@ export default function VideoDetail() {
                     width='100%'
                     height='640'
                     src={`https://www.youtube.com/embed/${vid.id}`}
+                    title={title}
                 />
                 <div className="p-8">
                     <p className="text-xl font-bold">{title}</p>

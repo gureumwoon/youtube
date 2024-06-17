@@ -7,10 +7,10 @@ import { Video } from "../../api/YoutubeApi";
 export default function Videos() {
     const { keyword } = useParams() as { keyword: string };
     const youtube = useYoutubeApi();
-    console.log('유튜브', youtube);
     const { isLoading, error, data: videos } = useQuery({
         queryKey: ['videos', keyword],
-        queryFn: () => youtube?.search(keyword)
+        queryFn: () => youtube?.search(keyword),
+        staleTime: 1000 * 60 * 1
     });
 
     return (
