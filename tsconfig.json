@@ -22,7 +22,9 @@
     "noUnusedParameters": true,
     "noFallthroughCasesInSwitch": true,
     "types": [
-      "@testing-library/jest-dom"
+      "jest",
+      "@testing-library/jest-dom",
+      "@testing-library/user-event"
     ],
     "esModuleInterop": true,
   },
