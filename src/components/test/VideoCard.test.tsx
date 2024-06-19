@@ -1,7 +1,8 @@
-import { MemoryRouter } from "react-router-dom";
+import { MemoryRouter, Route, Routes, useLocation } from "react-router-dom";
 import VideoList from "../VideoList";
-import { render, screen } from "@testing-library/react";
+import { render, screen, waitFor } from "@testing-library/react";
 import { convertDate } from "../../util/date";
+import userEvent from "@testing-library/user-event";
 
 describe('VideoCard', () => {
 
@@ -36,4 +37,27 @@ describe('VideoCard', () => {
         expect(screen.getByText(convertDate(publishedAt))).toBeInTheDocument();
     });
 
+    it('navigates to detailed video page with vid state when clicked', async () => {
+
+        function LocationStateDisplay() {
+            return <pre >{JSON.stringify(useLocation().state)}</pre>
+        }
+
+        render(
+            <MemoryRouter initialEntries={['/']}>
+                <Routes>
+                    <Route path='/' element={<VideoList vid={video} />} />
+                    <Route path={`/videos/watch/${video.id}`} element={<LocationStateDisplay />} />
+                </Routes>
+            </MemoryRouter>
+        );
+
+        const card = screen.getByRole('listitem');
+        userEvent.click(card);
+
+        await waitFor(() => {
+            expect(screen.getByText(JSON.stringify({ vid: video }))).toBeInTheDocument();
+        });
+
+    })
 })
