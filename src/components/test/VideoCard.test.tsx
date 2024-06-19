@@ -3,23 +3,9 @@ import VideoList from "../VideoList";
 import { render, screen, waitFor } from "@testing-library/react";
 import { convertDate } from "../../util/date";
 import userEvent from "@testing-library/user-event";
+import { fakeVideo as video } from "../../test/videos";
 
 describe('VideoCard', () => {
-
-    const video = {
-        id: '1',
-        snippet: {
-            title: 'title',
-            channelId: '1',
-            thumbnails: {
-                medium: {
-                    url: 'http://image/',
-                },
-            },
-            channelTitle: 'channelTitle',
-            publishedAt: new Date().toString(),
-        },
-    };
 
     const { thumbnails, title, channelTitle, publishedAt } = video.snippet;
 
