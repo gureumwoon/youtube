@@ -1,9 +1,10 @@
-import { MemoryRouter, Route, Routes, useLocation } from "react-router-dom";
+import { Route, useLocation } from "react-router-dom";
 import VideoList from "../VideoList";
 import { render, screen, waitFor } from "@testing-library/react";
 import { convertDate } from "../../util/date";
 import userEvent from "@testing-library/user-event";
 import { fakeVideo as video } from "../../test/videos";
+import { withRouter } from "../../test/utils";
 
 describe('VideoCard', () => {
 
@@ -11,9 +12,7 @@ describe('VideoCard', () => {
 
     it('renders video item', () => {
         render(
-            <MemoryRouter>
-                <VideoList vid={video} />
-            </MemoryRouter>
+            withRouter(<Route path='/' element={<VideoList vid={video} />} />)
         )
         const image = screen.getByRole('img') as HTMLImageElement;
         expect(image.src).toBe(thumbnails.medium.url);
@@ -30,12 +29,12 @@ describe('VideoCard', () => {
         }
 
         render(
-            <MemoryRouter initialEntries={['/']}>
-                <Routes>
+            withRouter(
+                <>
                     <Route path='/' element={<VideoList vid={video} />} />
                     <Route path={`/videos/watch/${video.id}`} element={<LocationStateDisplay />} />
-                </Routes>
-            </MemoryRouter>
+                </>
+            )
         );
 
         const card = screen.getByRole('listitem');
