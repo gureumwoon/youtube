@@ -44,5 +44,5 @@ describe('VideoCard', () => {
             expect(screen.getByText(JSON.stringify({ vid: video }))).toBeInTheDocument();
         });
 
-    })
+    });
 })

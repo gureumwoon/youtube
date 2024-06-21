@@ -7,4 +7,6 @@ export default {
     '^.+\\.svg$': 'jest-svg-transformer',
     "\\.(css|less|sass|scss)$": "identity-obj-proxy",
   },
+  collectCoverage: true,
+  coverageReporters: ["text"],
 };
