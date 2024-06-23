@@ -1,0 +1,65 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`SearchHeader renders correctly 1`] = `
+<DocumentFragment>
+  <header
+    class="w-full flex justify-between items-center px-4 py-3 mb-4"
+  >
+    <a
+      href="/"
+    >
+      <div
+        class="flex items-center"
+      >
+        <svg
+          class="text-4xl text-logo mr-1"
+          fill="currentColor"
+          height="1em"
+          stroke="currentColor"
+          stroke-width="0"
+          viewBox="0 0 576 512"
+          width="1em"
+          xmlns="http://www.w3.org/2000/svg"
+        >
+          <path
+            d="M549.655 124.083c-6.281-23.65-24.787-42.276-48.284-48.597C458.781 64 288 64 288 64S117.22 64 74.629 75.486c-23.497 6.322-42.003 24.947-48.284 48.597-11.412 42.867-11.412 132.305-11.412 132.305s0 89.438 11.412 132.305c6.281 23.65 24.787 41.5 48.284 47.821C117.22 448 288 448 288 448s170.78 0 213.371-11.486c23.497-6.321 42.003-24.171 48.284-47.821 11.412-42.867 11.412-132.305 11.412-132.305s0-89.438-11.412-132.305zm-317.51 213.508V175.185l142.739 81.205-142.739 81.201z"
+          />
+        </svg>
+        <h1
+          class="text-white text-2xl font-semibold"
+        >
+          YouTube
+        </h1>
+      </div>
+    </a>
+    <form
+      class="w-full flex justify-center flex-grow"
+    >
+      <input
+        class="w-3/12 min-w-96 py-2 px-3 rounded-tl-full rounded-bl-full border border-borderCorlor bg-mainColor z-10"
+        placeholder="검색"
+        type="text"
+        value=""
+      />
+      <button
+        class="bg-searchBtnColor w-16 h-10 rounded-tr-full rounded-br-full"
+      >
+        <svg
+          class="text-subColor text-xl m-auto"
+          fill="currentColor"
+          height="1em"
+          stroke="currentColor"
+          stroke-width="0"
+          viewBox="0 0 24 24"
+          width="1em"
+          xmlns="http://www.w3.org/2000/svg"
+        >
+          <path
+            d="M10.25 2a8.25 8.25 0 0 1 6.34 13.53l5.69 5.69a.749.749 0 0 1-.326 1.275.749.749 0 0 1-.734-.215l-5.69-5.69A8.25 8.25 0 1 1 10.25 2ZM3.5 10.25a6.75 6.75 0 1 0 13.5 0 6.75 6.75 0 0 0-13.5 0Z"
+          />
+        </svg>
+      </button>
+    </form>
+  </header>
+</DocumentFragment>
+`;
