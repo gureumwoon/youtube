@@ -10,6 +10,21 @@ describe('VideoCard', () => {
 
     const { thumbnails, title, channelTitle, publishedAt } = video.snippet;
 
+    it('renders grid type correctly', () => {
+        const { asFragment } = render(
+            withRouter(<Route path="/" element={<VideoList vid={video} />} />)
+        );
+        expect(asFragment()).toMatchSnapshot();
+    });
+
+    it('renders list type correctly', () => {
+        const { asFragment } = render(
+            withRouter(<Route path="/" element={<VideoList vid={video} type="list" />} />)
+        );
+        expect(asFragment()).toMatchSnapshot();
+    })
+
+
     it('renders video item', () => {
         render(
             withRouter(<Route path='/' element={<VideoList vid={video} />} />)
