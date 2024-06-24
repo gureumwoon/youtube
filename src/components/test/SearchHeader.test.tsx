@@ -2,6 +2,7 @@ import { render, screen } from "@testing-library/react"
 import { withRouter } from "../../test/utils"
 import { Route } from "react-router-dom"
 import Header from "../Header"
+import userEvent from "@testing-library/user-event";
 
 describe('SearchHeader', () => {
     it('renders correctly', () => {
@@ -17,5 +18,31 @@ describe('SearchHeader', () => {
         );
 
         expect(screen.getByDisplayValue('seventeen')).toBeInTheDocument();
+    });
+
+    it('navigates to results page on search button click', () => {
+        const searchKeyword = 'fake-keyword';
+        render(
+            withRouter(
+                <>
+                    <Route path="/home" element={<Header />} />
+                    <Route
+                        path={`/videos/${searchKeyword}`}
+                        element={<p>{`Search result for ${searchKeyword}`}</p>}
+                    />
+                </>,
+                '/home'
+            )
+        );
+
+        const searchButton = screen.getByRole('button');
+        const searchInput = screen.getByRole('textbox');
+
+        userEvent.type(searchInput, searchKeyword);
+        userEvent.click(searchButton);
+
+        expect(
+            screen.getByText(`Search result for ${searchKeyword}`)
+        ).toBeInTheDocument();
     });
 });
