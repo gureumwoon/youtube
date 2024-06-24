@@ -1,4 +1,4 @@
-import { render } from "@testing-library/react"
+import { render, screen } from "@testing-library/react"
 import { withRouter } from "../../test/utils"
 import { Route } from "react-router-dom"
 import Header from "../Header"
@@ -9,5 +9,13 @@ describe('SearchHeader', () => {
             withRouter(<Route path="/" element={<Header />} />)
         );
         expect(asFragment()).toMatchSnapshot();
+    });
+
+    it('renders with keyword correctly', () => {
+        render(
+            withRouter(<Route path="/:keyword" element={<Header />} />, '/seventeen')
+        );
+
+        expect(screen.getByDisplayValue('seventeen')).toBeInTheDocument();
     });
 });
