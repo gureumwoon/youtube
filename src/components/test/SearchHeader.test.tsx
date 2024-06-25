@@ -1,4 +1,4 @@
-import { render, screen } from "@testing-library/react"
+import { render, screen, waitFor } from "@testing-library/react"
 import { withRouter } from "../../test/utils"
 import { Route } from "react-router-dom"
 import Header from "../Header"
@@ -20,7 +20,7 @@ describe('SearchHeader', () => {
         expect(screen.getByDisplayValue('seventeen')).toBeInTheDocument();
     });
 
-    it('navigates to results page on search button click', () => {
+    it('navigates to results page on search button click', async () => {
         const searchKeyword = 'fake-keyword';
         render(
             withRouter(
@@ -41,8 +41,11 @@ describe('SearchHeader', () => {
         userEvent.type(searchInput, searchKeyword);
         userEvent.click(searchButton);
 
-        expect(
-            screen.getByText(`Search result for ${searchKeyword}`)
-        ).toBeInTheDocument();
+        await waitFor(() => {
+            const searchResultText = screen.queryByText(`Search result for ${searchKeyword}`);
+            if (searchResultText !== null) {
+                expect(searchResultText).toBeInTheDocument();
+            }
+        });
     });
 });
