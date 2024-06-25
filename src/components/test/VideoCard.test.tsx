@@ -37,6 +37,26 @@ describe('VideoCard', () => {
         expect(screen.getByText(convertDate(publishedAt))).toBeInTheDocument();
     });
 
+    it('renders video item with missing publishedAt', () => {
+        const videoWithoutPublishedAt = {
+            ...video,
+            snippet: {
+                ...video.snippet,
+                publishedAt: '',
+            },
+        };
+
+        render(
+            withRouter(<Route path='/' element={<VideoList vid={videoWithoutPublishedAt} />} />)
+        );
+        const image = screen.getByRole('img') as HTMLImageElement;
+        expect(image.src).toBe(thumbnails.medium.url);
+        expect(image.alt).toBe(title);
+        expect(screen.getByText(title)).toBeInTheDocument();
+        expect(screen.getByText(channelTitle)).toBeInTheDocument();
+        expect(screen.getByText(convertDate(''))).toBeInTheDocument(); // Updated to match empty date
+    });
+
     it('navigates to detailed video page with vid state when clicked', async () => {
 
         function LocationStateDisplay() {
