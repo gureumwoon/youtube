@@ -12,13 +12,13 @@ describe('ChannelInfo', () => {
 
     it('renders correctly', async () => {
         fakeYoutube.channels.mockImplementation(() => 'url');
-
-        render(withAllContexts(
+        const { asFragment } = render(withAllContexts(
             withRouter(
                 <Route path="/" element={<ChannelInfo id="id" name="channel" />} />
             ),
             fakeYoutube
         ))
-        await waitFor(() => screen.getByText('channel'))
-    })
+        await waitFor(() => screen.getByRole('img'));
+        expect(asFragment()).toMatchSnapshot();
+    });
 })
