@@ -13,12 +13,7 @@ describe('RelatedVideos', () => {
 
     it('renders correctly', async () => {
         fakeYoutube.getChannelPlaylist.mockImplementation(() => videos);
-        const { asFragment } = render(withAllContexts(
-            withRouter(
-                <Route path="/" element={<RelatedVideos id="id" />} />
-            ),
-            fakeYoutube
-        ));
+        const { asFragment } = rendersRelatedVideos()
 
         await waitForElementToBeRemoved(screen.getByText('Loading...'));
         expect(asFragment()).toMatchSnapshot();
@@ -26,16 +21,20 @@ describe('RelatedVideos', () => {
 
     it('renders related videos correctly', async () => {
         fakeYoutube.getChannelPlaylist.mockImplementation(() => videos);
-        render(withAllContexts(
-            withRouter(
-                <Route path="/" element={<RelatedVideos id="id" />} />
-            ),
-            fakeYoutube
-        ));
+        rendersRelatedVideos()
 
         expect(fakeYoutube.getChannelPlaylist).toHaveBeenCalledWith('id');
         await waitFor(() => {
             expect(screen.getAllByRole('listitem')).toHaveLength(videos.length)
         });
     });
+
+    function rendersRelatedVideos() {
+        return render(withAllContexts(
+            withRouter(
+                <Route path="/" element={<RelatedVideos id="id" />} />
+            ),
+            fakeYoutube
+        ));
+    }
 })
