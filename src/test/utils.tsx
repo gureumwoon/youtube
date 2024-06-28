@@ -13,7 +13,8 @@ export function withRouter(routes: ReactNode, initialEntry = '/') {
 }
 
 interface PartialYoutubeApi {
-    channels: (id: string) => string;
+    channels?: (id: string) => string;
+    getChannelPlaylist?: (id: string) => string;
 }
 
 export function withAllContexts(children: ReactNode, youtube: PartialYoutubeApi) {
