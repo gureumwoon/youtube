@@ -21,4 +21,19 @@ describe('ChannelInfo', () => {
         await waitFor(() => screen.getByRole('img'));
         expect(asFragment()).toMatchSnapshot();
     });
+
+    it('renders without URL', () => {
+        fakeYoutube.channels.mockImplementation(() => {
+            throw new Error('error');
+        });
+
+        render(
+            withAllContexts(
+                withRouter(
+                    <Route path="/" element={<ChannelInfo id="id" name="channel" />} />
+                ),
+                fakeYoutube
+            ));
+        expect(screen.queryByRole('img')).toBeNull();
+    });
 })
