@@ -41,11 +41,15 @@ describe('SearchHeader', () => {
         userEvent.type(searchInput, searchKeyword);
         userEvent.click(searchButton);
 
-        await waitFor(() => {
-            const searchResultText = screen.queryByText(`Search result for ${searchKeyword}`);
-            if (searchResultText !== null) {
-                expect(searchResultText).toBeInTheDocument();
-            }
-        });
+        let searchResultText;
+        try {
+            await waitFor(() => {
+                searchResultText = screen.getByText(`Search result for ${searchKeyword}`);
+            });
+        } catch (error) {
+            // handle the error if needed
+        } finally {
+            expect(searchResultText).toBeInTheDocument();
+        }
     });
 });

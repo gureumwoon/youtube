@@ -30,7 +30,9 @@
   },
   "include": [
     "src",
-    "api"
+    "api",
+    "jest.setup.ts",
+    "vite.config.ts",
   ],
   "references": [
     {
