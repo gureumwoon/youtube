@@ -38,6 +38,17 @@ describe('RelatedVideos', () => {
         });
     });
 
+    it('renders error', async () => {
+        fakeYoutube.getChannelPlaylist.mockImplementation(() => {
+            throw new Error('error')
+        });
+        rendersRelatedVideos()
+
+        await waitFor(() => {
+            expect(screen.getByText('Something wrong...')).toBeInTheDocument()
+        });
+    });
+
     function rendersRelatedVideos() {
         return render(withAllContexts(
             withRouter(
