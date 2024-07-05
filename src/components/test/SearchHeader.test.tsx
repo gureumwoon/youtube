@@ -38,18 +38,12 @@ describe('SearchHeader', () => {
         const searchButton = screen.getByRole('button');
         const searchInput = screen.getByRole('textbox');
 
-        userEvent.type(searchInput, searchKeyword);
-        userEvent.click(searchButton);
+        await userEvent.type(searchInput, searchKeyword);
+        await userEvent.click(searchButton);
 
-        let searchResultText;
-        try {
-            await waitFor(() => {
-                searchResultText = screen.getByText(`Search result for ${searchKeyword}`);
-            });
-        } catch (error) {
-            // handle the error if needed
-        } finally {
+        await waitFor(() => {
+            const searchResultText = screen.getByText(`Search result for ${searchKeyword}`);
             expect(searchResultText).toBeInTheDocument();
-        }
+        });
     });
 });
