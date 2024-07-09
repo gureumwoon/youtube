@@ -28,6 +28,16 @@ describe('Videos', () => {
         });
     });
 
+    it('when keyword is specified, renders search results', async () => {
+        const searchKeyword = 'fake-keyword';
+        renderWithPath(`/${searchKeyword}`);
+
+        expect(fakeYoutube.search).toHaveBeenCalledWith(searchKeyword);
+        await waitFor(() => {
+            expect(screen.getAllByRole('listitem')).toHaveLength(1);
+        });
+    });
+
     function renderWithPath(path = '/') {
         return render(
             withAllContexts(
