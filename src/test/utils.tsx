@@ -18,6 +18,7 @@ export function withRouter(routes: ReactNode, initialEntry: InitialEntry = '/') 
 interface PartialYoutubeApi {
     channels?: (id: string) => string;
     getChannelPlaylist?: (id: string) => string;
+    search?: (keyword?: string) => string[];
 }
 
 export function withAllContexts(children: ReactNode, youtube: PartialYoutubeApi) {

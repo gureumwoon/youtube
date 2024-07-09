@@ -29,7 +29,7 @@ describe('VideoDetatil', () => {
         const { title, channelId, channelTitle } = fakeVideo.snippet;
         expect(screen.getByText(title)).toBeInTheDocument();
         expect(mockedChannelInfo.mock.calls[0][0]).toStrictEqual({ id: channelId, name: channelTitle });
-        expect(mockedRelatedVideos.mock.calls[0][0]).toStrictEqual({ id: channelId })
+        expect(mockedRelatedVideos.mock.calls[0][0]).toStrictEqual({ id: channelId });
 
     });
 })
