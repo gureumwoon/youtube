@@ -42,7 +42,19 @@ describe('Videos', () => {
         renderWithPath('/');
 
         expect(screen.getByText('Loading...')).toBeInTheDocument();
-    })
+    });
+
+    it('renders error state when fetching items fails', async () => {
+        fakeYoutube.search.mockImplementation(async () => {
+            throw new Error('error')
+        });
+
+        renderWithPath('/');
+
+        await waitFor(() => {
+            expect(screen.getByText('Something wrong...')).toBeInTheDocument();
+        });
+    });
 
     function renderWithPath(path = '/') {
         return render(
