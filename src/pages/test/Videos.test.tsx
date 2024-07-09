@@ -38,6 +38,12 @@ describe('Videos', () => {
         });
     });
 
+    it('renders loading state when items are being fetched', () => {
+        renderWithPath('/');
+
+        expect(screen.getByText('Loading...')).toBeInTheDocument();
+    })
+
     function renderWithPath(path = '/') {
         return render(
             withAllContexts(
