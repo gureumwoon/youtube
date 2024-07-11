@@ -33,6 +33,7 @@
     "api",
     "jest.setup.ts",
     "vite.config.ts",
+    "cypress.config.ts"
   ],
   "references": [
     {
