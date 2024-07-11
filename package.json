@@ -9,12 +9,15 @@
     "lint": "eslint . --ext ts,tsx --report-unused-disable-directives --max-warnings 0",
     "preview": "vite preview",
     "test": "jest --watchAll",
-    "test:coverage": "npm test -- --coverage --watchAll"
+    "test:coverage": "npm test -- --coverage --watchAll",
+    "cypress": "cypress open"
   },
   "dependencies": {
     "@tanstack/react-query": "^5.48.0",
+    "@testing-library/cypress": "^10.0.2",
     "@types/react-router-dom": "^5.3.3",
     "axios": "^1.6.7",
+    "cypress": "^13.13.0",
     "react": "^18.2.0",
     "react-dom": "^18.2.0",
     "react-icons": "^5.0.1",
