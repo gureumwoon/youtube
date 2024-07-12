@@ -1,0 +1,12 @@
+{
+    "compilerOptions": {
+        "module": "commonjs",
+        "moduleResolution": "node",
+        "preserveValueImports": false,
+    },
+    "include": [
+        "tsconfig.json",
+        "**/*.ts",
+        "**/*.tsx",
+    ]
+}

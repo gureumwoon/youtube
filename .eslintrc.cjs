@@ -17,7 +17,7 @@ module.exports = {
     ecmaFeatures: {
       jsx: true,
     },
-    project: './tsconfig.json',
+    project: ['./tsconfig.json', 'cypress/tsconfig.json'],
   },
   plugins: [
     'react-refresh',
@@ -34,5 +34,5 @@ module.exports = {
     'jest/no-identical-title': 'error',
     'jest/prefer-to-have-length': 'warn',
     'jest/valid-expect': 'error',
-  },
+  }
 }

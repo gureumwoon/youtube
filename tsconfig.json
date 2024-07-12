@@ -33,7 +33,11 @@
     "api",
     "jest.setup.ts",
     "vite.config.ts",
-    "cypress.config.ts"
+  ],
+  "exclude": [
+    "cypress/tsconfig.json",
+    "cypress",
+    "node_modules"
   ],
   "references": [
     {
