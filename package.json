@@ -14,10 +14,8 @@
   },
   "dependencies": {
     "@tanstack/react-query": "^5.48.0",
-    "@testing-library/cypress": "^10.0.2",
     "@types/react-router-dom": "^5.3.3",
     "axios": "^1.6.7",
-    "cypress": "^13.13.0",
     "react": "^18.2.0",
     "react-dom": "^18.2.0",
     "react-icons": "^5.0.1",
@@ -26,6 +24,7 @@
     "vitest": "^1.6.0"
   },
   "devDependencies": {
+    "@testing-library/cypress": "^10.0.2",
     "@testing-library/jest-dom": "^6.4.6",
     "@testing-library/react": "^16.0.0",
     "@testing-library/user-event": "^14.5.2",
@@ -36,6 +35,7 @@
     "@typescript-eslint/parser": "^7.14.1",
     "@vitejs/plugin-react": "^4.2.1",
     "autoprefixer": "^10.4.18",
+    "cypress": "^13.13.0",
     "eslint": "^8.57.0",
     "eslint-plugin-jest": "^28.6.0",
     "eslint-plugin-react-hooks": "^4.6.2",

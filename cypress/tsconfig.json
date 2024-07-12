@@ -8,5 +8,6 @@
         "tsconfig.json",
         "**/*.ts",
         "**/*.tsx",
+        "cypress.d.ts",
     ]
 }
