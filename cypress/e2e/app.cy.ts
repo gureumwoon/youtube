@@ -20,4 +20,10 @@ describe('Youtube Clone', () => {
     it('shows popular video firs', () => {
         cy.findByText('Popular Video').should('exist');
     });
+
+    it('searches by keyword', () => {
+        cy.findByPlaceholderText('검색').type('iu');
+        cy.findByRole('button').click();
+        cy.findByText('Search Result1').should('exist');
+    });
 })
